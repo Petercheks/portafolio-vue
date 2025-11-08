@@ -1,0 +1,74 @@
+@import 'tailwindcss';
+
+:root {
+  --primary-bg: #0a0f1f;
+  --secondary-bg: #0f1a2e;
+  --accent-bg: #1a2544;
+  --text-primary: #e8f0ff;
+  --text-secondary: #a0b8d8;
+  --text-accent: #64b5f6;
+  --border-color: #2d4a6a;
+  --shadow: rgba(0, 20, 40, 0.5);
+}
+
+/* Estilos del body */
+body {
+  background-color: var(--primary-bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Contenedor principal con gradiente sofisticado */
+#app {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 80%, rgba(26, 37, 68, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(45, 74, 106, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(100, 181, 246, 0.1) 0%, transparent 50%),
+    linear-gradient(135deg, var(--primary-bg) 0%, var(--secondary-bg) 50%, var(--accent-bg) 100%);
+
+  /* Animación sutil del fondo */
+  background-size:
+    200% 200%,
+    200% 200%,
+    200% 200%,
+    100% 100%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0%,
+  100% {
+    background-position:
+      0% 0%,
+      100% 100%,
+      50% 50%,
+      0% 0%;
+  }
+  50% {
+    background-position:
+      100% 100%,
+      0% 0%,
+      0% 100%,
+      0% 0%;
+  }
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
