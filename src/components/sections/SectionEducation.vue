@@ -5,7 +5,7 @@ import education from '../stores/education'
 
 <template>
   <SectionBase id="educacion" class="without-pb">
-    <h3 class="text-2xl font-bold mb-12 text-emerald-700">Educación</h3>
+    <h3 class="text-2xl font-bold mb-12 text-sky-300">Educación</h3>
 
     <div class="max-w-4xl mx-auto space-y-6">
       <div v-for="item in education" :key="item.id"

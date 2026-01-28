@@ -15,9 +15,9 @@ const quickInfo = [
 
 <template>
   <SectionBase id="sobre-mi" class="without-pb">
-    <h3 class="text-2xl font-bold mb-12 text-emerald-700">Sobre mí</h3>
+    <h3 class="text-2xl font-bold mb-12 text-sky-300">Sobre mí</h3>
 
-    <div class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
       <div
         class="lg:col-span-2 bg-gradient-to-br from-slate-800/90 via-slate-700/80 to-slate-600/70 border border-blue-300/20 rounded-2xl backdrop-blur-lg p-6">
         <p class="text-slate-200 leading-relaxed">

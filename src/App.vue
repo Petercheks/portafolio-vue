@@ -21,6 +21,6 @@ import SectionResume from './components/sections/SectionResume.vue'
 
   <footer class="text-center py-6 mt-12 text-sm text-gray-500">
     &copy; 2025 Pedro Matos. Todos los derechos reservados. Icons by
-    <a class="text-green-600 underline" target="_blank" href="https://icons8.com">Icons8</a>
+    <a class="text-sky-400 underline" target="_blank" href="https://icons8.com">Icons8</a>
   </footer>
 </template>

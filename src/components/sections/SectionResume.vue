@@ -7,7 +7,7 @@ import SectionBase from './SectionBase.vue'
   <SectionBase id="resumen" class="without-pb">
     <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
       <img src="/pedro-matos.png" alt="Pedro Matos" class="w-28 h-28 sm:w-40 sm:h-40 rounded-full object-cover" />
-      <h2 class="text-3xl sm:text-5xl font-bold text-emerald-700 text-center sm:text-left break-words">
+      <h2 class="text-3xl sm:text-5xl font-bold text-sky-300 text-center sm:text-left break-words">
         Hola, soy Pedro Matos.
       </h2>
     </div>
