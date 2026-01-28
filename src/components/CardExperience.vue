@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
 defineProps<{
   experience: {
     rol: string
@@ -8,6 +10,8 @@ defineProps<{
     logo?: string
   }
 }>()
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -24,7 +28,7 @@ defineProps<{
           <div class="flex-shrink-0 mx-auto sm:mx-0">
             <img
               :src="experience.logo"
-              :alt="experience.company + ' logo'"
+              :alt="t('experience.logoAlt', { company: experience.company })"
               class="w-14 h-14 rounded-xl object-cover border-2 border-blue-300/20 transition-all duration-300 group-hover:border-blue-300/50 group-hover:scale-105"
             />
           </div>

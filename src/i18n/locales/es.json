@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "homeAlt": "Inicio",
+    "openMenu": "Abrir menú",
+    "resume": "Resumen",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "about": "Sobre mí",
+    "changeLanguage": "Cambiar idioma",
+    "switchToEnglish": "Cambiar a Inglés",
+    "switchToSpanish": "Cambiar a Español"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "iconsBy": "Icons by"
+  },
+  "sections": {
+    "workExperience": "Experiencia Laboral",
+    "education": "Educación",
+    "about": "Sobre mí"
+  },
+  "resume": {
+    "photoAlt": "Foto de {name}",
+    "greeting": "Hola, soy {name}.",
+    "intro": "Desarrollador Full Stack con +5 años de experiencia creando aplicaciones web robustas y escalables. Apasionado por la tecnología y el aprendizaje continuo, busco siempre implementar las mejores prácticas en cada proyecto.",
+    "techTitle": "Tecnologías y Herramientas"
+  },
+  "about": {
+    "p1": "Soy Pedro Matos, desarrollador Full Stack. Me enfoco en entregar soluciones escalables, eficientes y con buenas bases: código limpio, buenas prácticas y una experiencia clara para el usuario.",
+    "p2": "Me siento cómodo trabajando en backend y frontend, integrando APIs, debatiendo soluciones y creando productos.",
+    "highlights": [
+      "Full Stack con foco en calidad, performance y mantenibilidad.",
+      "Me gusta trabajar en productos que tengan impacto en la vida de las personas.",
+      "Me apasiona la automatización y electrónica asi que si tienes un proyecto que combine ambas, no dudes en contactarme."
+    ],
+    "quickInfo": [
+      {
+        "label": "Ubicación",
+        "value": "Buenos Aires, Argentina (remoto)"
+      },
+      {
+        "label": "Rol",
+        "value": "Full Stack Developer"
+      }
+    ],
+    "contact": "Contacto"
+  },
+  "experience": {
+    "logoAlt": "Logo de {company}",
+    "items": [
+      {
+        "id": 1,
+        "rol": "Desarrollador FullStack",
+        "company": "Lirmi",
+        "period": "Agosto 2023 - Presente",
+        "logo": "/lirmi-icon.jpg",
+        "responsibilities": [
+          "Desarrollo nuevas funcionalidades y módulos para la gestión educativa, con un stack backend con Laravel y una base de datos PostgreSQL, y frontend dinámico e intuitivo con Vue.",
+          "Participe en el diseño y puesta en marcha de mas de 10 nuevos módulos con gran impacto en estudiantes, directivos y administrativos.",
+          "Impulsado por la calidad y usabilidad del producto se ha logrado un crecimiento del Net Promoter Score (NPS) de la empresa, que pasó de 25 a 43 puntos representando un 24% de mejora."
+        ]
+      },
+      {
+        "id": 2,
+        "rol": "Desarrollador Backend",
+        "company": "Kuiper Make",
+        "period": "Octubre 2024 - Presente",
+        "logo": "/kuiper-icon.jpeg",
+        "responsibilities": [
+          "Desarrollo y mantengo micro servicios para la gestión de motores de riesgo de machine learning usando FastApi y Laravel.",
+          "Lidero el mantenimiento y la refactorización de código obsoleto en múltiples módulos de la app, mejorando la estabilidad y eficiencia del sistema."
+        ]
+      },
+      {
+        "id": 3,
+        "rol": "Desarrollador FullStack",
+        "company": "Crediminuto",
+        "period": "Noviembre 2020 - Septiembre 2023",
+        "logo": "/crediminuto-icon.png",
+        "responsibilities": [
+          "Diseñé e implementé métodos de evaluación e integré servicios AWS para la detección de fraude, fortaleciendo la seguridad transaccional."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "items": [
+      {
+        "id": 1,
+        "title": "Técnico Universitario en Programación de Sistemas",
+        "institution": "UCES",
+        "period": "2022 - 2025"
+      },
+      {
+        "id": 2,
+        "title": "Ingeniería mecatrónica",
+        "institution": "UNEXPO Luis Caballero Mejías - (No titulado)",
+        "period": "2012 - 2016"
+      }
+    ]
+  }
+}

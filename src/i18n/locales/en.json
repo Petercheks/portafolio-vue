@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "homeAlt": "Home",
+    "openMenu": "Open menu",
+    "resume": "Summary",
+    "experience": "Experience",
+    "education": "Education",
+    "about": "About",
+    "changeLanguage": "Change language",
+    "switchToEnglish": "Switch to English",
+    "switchToSpanish": "Switch to Spanish"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "iconsBy": "Icons by"
+  },
+  "sections": {
+    "workExperience": "Work Experience",
+    "education": "Education",
+    "about": "About me"
+  },
+  "resume": {
+    "photoAlt": "Photo of {name}",
+    "greeting": "Hi, I'm {name}.",
+    "intro": "Full Stack Developer with 5+ years of experience building robust and scalable web applications. Passionate about technology and continuous learning, I always strive to apply best practices in every project.",
+    "techTitle": "Technologies & Tools"
+  },
+  "about": {
+    "p1": "I'm Pedro Matos, a Full Stack Developer. I focus on delivering scalable, efficient solutions with strong foundations: clean code, good practices, and a clear user experience.",
+    "p2": "I’m comfortable working across backend and frontend, integrating APIs, discussing solutions, and building products.",
+    "highlights": [
+      "Full Stack with a focus on quality, performance, and maintainability.",
+      "I enjoy working on products that have a positive impact on people's lives.",
+      "I’m passionate about automation and electronics, so if you have a project that combines both, feel free to reach out."
+    ],
+    "quickInfo": [
+      {
+        "label": "Location",
+        "value": "Buenos Aires, Argentina (remote)"
+      },
+      {
+        "label": "Role",
+        "value": "Full Stack Developer"
+      }
+    ],
+    "contact": "Contact"
+  },
+  "experience": {
+    "logoAlt": "{company} logo",
+    "items": [
+      {
+        "id": 1,
+        "rol": "Full Stack Developer",
+        "company": "Lirmi",
+        "period": "Aug 2023 - Present",
+        "logo": "/lirmi-icon.jpg",
+        "responsibilities": [
+          "I build new features and modules for educational management, using Laravel and PostgreSQL on the backend and a dynamic, intuitive Vue frontend.",
+          "I participated in the design and rollout of 10+ new modules with high impact for students, leaders, and administrative staff.",
+          "Driven by product quality and usability, we improved the company’s Net Promoter Score (NPS) from 25 to 43 points (+24%)."
+        ]
+      },
+      {
+        "id": 2,
+        "rol": "Backend Developer",
+        "company": "Kuiper Make",
+        "period": "Oct 2024 - Present",
+        "logo": "/kuiper-icon.jpeg",
+        "responsibilities": [
+          "I develop and maintain microservices for ML risk-engine management using FastAPI and Laravel.",
+          "I lead maintenance and refactoring of legacy code across multiple app modules, improving system stability and efficiency."
+        ]
+      },
+      {
+        "id": 3,
+        "rol": "Full Stack Developer",
+        "company": "Crediminuto",
+        "period": "Nov 2020 - Sep 2023",
+        "logo": "/crediminuto-icon.png",
+        "responsibilities": [
+          "I designed and implemented evaluation methods and integrated AWS services for fraud detection, strengthening transactional security."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "items": [
+      {
+        "id": 1,
+        "title": "University Technician in Systems Programming",
+        "institution": "UCES",
+        "period": "2022 - 2025"
+      },
+      {
+        "id": 2,
+        "title": "Mechatronics Engineering",
+        "institution": "UNEXPO Luis Caballero Mejías - (not completed)",
+        "period": "2012 - 2016"
+      }
+    ]
+  }
+}
