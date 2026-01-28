@@ -11,7 +11,7 @@ import SectionResume from './components/sections/SectionResume.vue'
     <NavbarBase />
   </header>
 
-  <main class="px-4">
+  <main class="px-4 pt-24 sm:pt-28">
     <SectionResume />
 
     <SectionExperience />

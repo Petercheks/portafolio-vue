@@ -25,7 +25,7 @@ defineProps<{
               class="w-14 h-14 rounded-xl object-cover border-2 border-blue-300/20 transition-all duration-300 group-hover:border-blue-300/50 group-hover:scale-105" />
           </div>
 
-          <div class="flex-1 text-center sm:text-left">
+          <div class="flex-1 sm:text-left">
             <h4 class="text-xl font-semibold mb-2 text-slate-100 leading-tight">
               {{ experience.rol }}
             </h4>

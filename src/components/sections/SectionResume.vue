@@ -5,11 +5,11 @@ import SectionBase from './SectionBase.vue'
 
 <template>
   <SectionBase id="resumen" class="without-pb">
-    <div class="flex justify-center mb-4 items-center">
-      <img src="/profile.jpg" alt="Pedro Matos" class="w-40 h-40 rounded-full object-cover" />
-      <div class="mt-4">
-        <h2 class="text-5xl font-bold ml-4 text-emerald-700">Hola, soy Pedro Matos.</h2>
-      </div>
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
+      <img src="/pedro-matos.png" alt="Pedro Matos" class="w-28 h-28 sm:w-40 sm:h-40 rounded-full object-cover" />
+      <h2 class="text-3xl sm:text-5xl font-bold text-emerald-700 text-center sm:text-left break-words">
+        Hola, soy Pedro Matos.
+      </h2>
     </div>
     <div class="text-center max-w-3xl mx-auto">
       <p class="text-lg">
@@ -19,7 +19,7 @@ import SectionBase from './SectionBase.vue'
       </p>
     </div>
 
-    <div class="mt-24">
+    <div class="mt-16 sm:mt-24">
       <h3 class="text-2xl font-bold text-center mb-4">Tecnologías y Herramientas</h3>
       <CarruselSkills />
     </div>
