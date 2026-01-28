@@ -18,7 +18,7 @@ const close = () => {
     class="relative w-full max-w-[92vw] sm:w-auto px-4 sm:px-6 text-sm font-medium rounded-full bg-gray-900/90 border border-gray-700 shadow-md">
     <div class="flex items-center justify-between sm:justify-center gap-3 sm:gap-4">
       <a class="relative block px-2 py-2 transition hover:scale-125" href="#resumen" @click="close">
-        <img src="/home.ico" alt="Inicio" class="h-6 w-6" />
+        <img src="/home-ico.png" alt="Inicio" class="h-6 w-6" />
       </a>
 
       <div class="hidden sm:flex items-center justify-center space-x-4">
