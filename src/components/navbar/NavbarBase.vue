@@ -42,7 +42,7 @@ const toggleLocale = () => {
         :aria-label="t('nav.changeLanguage')"
         @click="toggleLocale"
       >
-        <img :src="currentIconLocale" :alt="locale" class="h-6 w-6" />
+        <img :src="currentIconLocale" :alt="locale" class="h-5 w-5" />
       </button>
 
       <button
@@ -51,7 +51,7 @@ const toggleLocale = () => {
         :aria-label="t('nav.changeLanguage')"
         @click="toggleLocale"
       >
-        <img :src="currentIconLocale" :alt="locale" class="h-6 w-6" />
+        <img :src="currentIconLocale" :alt="locale" class="h-5 w-5" />
       </button>
 
       <button

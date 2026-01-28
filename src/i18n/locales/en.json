@@ -5,7 +5,7 @@
     "resume": "Summary",
     "experience": "Experience",
     "education": "Education",
-    "about": "About",
+    "about": "About me",
     "changeLanguage": "Change language",
     "switchToEnglish": "Switch to English",
     "switchToSpanish": "Switch to Spanish"
@@ -21,13 +21,13 @@
   },
   "resume": {
     "photoAlt": "Photo of {name}",
-    "greeting": "Hi, I'm {name}.",
+    "greeting": "Hello, I am {name}.",
     "intro": "Full Stack Developer with 5+ years of experience building robust and scalable web applications. Passionate about technology and continuous learning, I always strive to apply best practices in every project.",
     "techTitle": "Technologies & Tools"
   },
   "about": {
-    "p1": "I'm Pedro Matos, a Full Stack Developer. I focus on delivering scalable, efficient solutions with strong foundations: clean code, good practices, and a clear user experience.",
-    "p2": "I’m comfortable working across backend and frontend, integrating APIs, discussing solutions, and building products.",
+    "p1": "I am Pedro Matos, a Full Stack Developer. I focus on delivering scalable, efficient solutions with strong foundations: clean code, good practices, and a clear user experience.",
+    "p2": "I am comfortable working across backend and frontend, integrating APIs, discussing solutions, and building products.",
     "highlights": [
       "Full Stack with a focus on quality, performance, and maintainability.",
       "I enjoy working on products that have a positive impact on people's lives.",
