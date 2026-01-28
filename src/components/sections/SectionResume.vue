@@ -8,7 +8,7 @@ import SectionBase from './SectionBase.vue'
     <div class="flex justify-center mb-4 items-center">
       <img src="/profile.jpg" alt="Pedro Matos" class="w-40 h-40 rounded-full object-cover" />
       <div class="mt-4">
-        <h2 class="text-5xl font-bold ml-4">Hola, soy Pedro Matos</h2>
+        <h2 class="text-5xl font-bold ml-4 text-emerald-700">Hola, soy Pedro Matos.</h2>
       </div>
     </div>
     <div class="text-center max-w-3xl mx-auto">

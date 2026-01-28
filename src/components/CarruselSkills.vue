@@ -22,6 +22,7 @@ const skills = ref<Skill[]>([
   { icon: 'php.png', label: 'PHP' },
   { icon: 'visual.png', label: 'Visual Studio' },
 ])
+
 const currentIndex = ref<number>(0)
 let intervalId: number | null = null
 

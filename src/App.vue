@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import NavbarBase from './components/navbar/NavbarBase.vue'
+import SectionExperience from './components/sections/SectionExperience.vue'
+import SectionEducation from './components/sections/SectionEducation.vue'
+import SectionAbout from './components/sections/SectionAbout.vue'
 import SectionResume from './components/sections/SectionResume.vue'
 </script>
 
@@ -11,11 +14,9 @@ import SectionResume from './components/sections/SectionResume.vue'
   <main class="px-4">
     <SectionResume />
 
-    <section id="experiencia" class="section py-36 w-full mx-auto container px-36">
-      Experiencia
-    </section>
-    <section id="educacion" class="section py-36 w-full mx-auto container px-36">Educación</section>
-    <section id="sobre-mi" class="section py-36 w-full mx-auto container px-36">Sobre mí</section>
+    <SectionExperience />
+    <SectionEducation />
+    <SectionAbout />
   </main>
 
   <footer class="text-center py-6 mt-12 text-sm text-gray-500">
