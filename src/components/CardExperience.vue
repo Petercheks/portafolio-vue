@@ -5,6 +5,7 @@ defineProps<{
   experience: {
     rol: string
     company: string
+    location?: string
     period: string
     responsibilities: string[]
     logo?: string
@@ -39,6 +40,10 @@ const { t } = useI18n()
             </h4>
             <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
               <span class="font-medium text-blue-300">{{ experience.company }}</span>
+              <template v-if="experience.location">
+                <span class="hidden sm:inline text-slate-500">•</span>
+                <span class="text-sm text-slate-400">{{ experience.location }}</span>
+              </template>
               <span class="hidden sm:inline text-slate-500">•</span>
               <span class="text-sm text-slate-400">{{ experience.period }}</span>
             </div>

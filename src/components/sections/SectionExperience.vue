@@ -8,6 +8,7 @@ interface WorkExperienceItem {
   id: number
   rol: string
   company: string
+  location?: string
   period: string
   logo?: string
   responsibilities: string[]

@@ -22,16 +22,17 @@
   "resume": {
     "photoAlt": "Photo of {name}",
     "greeting": "Hello, I am {name}.",
-    "intro": "Full Stack Developer with 5+ years of experience building robust and scalable web applications. Passionate about technology and continuous learning, I always strive to apply best practices in every project.",
+    "intro": "Distributed Systems and Backend Engineer with 5+ years of experience, specialized in system design, high-concurrency architectures, and scalable cloud-native solutions. I build low-latency microservices, event-driven workflows, and robust REST APIs with strong focus on idempotency, observability, and code quality.",
     "techTitle": "Technologies & Tools"
   },
   "about": {
-    "p1": "I am Pedro Matos, a Full Stack Developer. I focus on delivering scalable, efficient solutions with strong foundations: clean code, good practices, and a clear user experience.",
-    "p2": "I am comfortable working across backend and frontend, integrating APIs, discussing solutions, and building products.",
+    "p1": "I am Pedro Matos, a Fullstack Developer focused on backend and distributed systems. I design and operate scalable microservices, asynchronous architectures, and optimized data pipelines, ensuring high availability, fault tolerance, and full architectural ownership.",
+    "p2": "I'm comfortable working across backend and frontend, integrating cloud services (AWS), discussing solutions, and leveraging AI-assisted tools as a force multiplier to accelerate delivery without compromising quality.",
     "highlights": [
-      "Full Stack with a focus on quality, performance, and maintainability.",
-      "I enjoy working on products that have a positive impact on people's lives.",
-      "I’m passionate about automation and electronics, so if you have a project that combines both, feel free to reach out."
+      "Distributed systems design, asynchronous architecture, and event-driven workflows.",
+      "REST APIs with strong focus on idempotency, versioning, and backward compatibility.",
+      "System observability (logging & tracing) and fintech / anti-fraud security.",
+      "I'm passionate about automation and electronics — if you have a project that combines both, feel free to reach out."
     ],
     "quickInfo": [
       {
@@ -40,7 +41,11 @@
       },
       {
         "label": "Role",
-        "value": "Full Stack Developer"
+        "value": "Fullstack / Backend Developer"
+      },
+      {
+        "label": "Languages",
+        "value": "Spanish (native) · English B2 (IELTS)"
       }
     ],
     "contact": "Contact"
@@ -50,35 +55,41 @@
     "items": [
       {
         "id": 1,
-        "rol": "Full Stack Developer",
-        "company": "Lirmi",
-        "period": "Aug 2023 - Present",
-        "logo": "/lirmi-icon.jpg",
+        "rol": "Backend Developer",
+        "company": "Kuiper Make",
+        "location": "Miami, USA (Remote)",
+        "period": "Oct 2024 - Present",
+        "logo": "/kuiper-icon.jpeg",
         "responsibilities": [
-          "I build new features and modules for educational management, using Laravel and PostgreSQL on the backend and a dynamic, intuitive Vue frontend.",
-          "I participated in the design and rollout of 10+ new modules with high impact for students, leaders, and administrative staff.",
-          "Driven by product quality and usability, we improved the company’s Net Promoter Score (NPS) from 25 to 43 points (+24%)."
+          "Design, build, and operate scalable cloud-native microservices for machine learning risk engines using FastAPI, Laravel, and AWS managed services, ensuring high availability and fault tolerance.",
+          "Extracted core engine logic into a dedicated asynchronous microservice, reducing evaluation response times by 78% (from 4.5s to under 1s) to efficiently handle high-volume concurrent traffic.",
+          "Integrated event-driven patterns and serverless workflows (AWS Lambda) to streamline asynchronous data processing, and implemented logging and monitoring for production-grade system observability."
         ]
       },
       {
         "id": 2,
-        "rol": "Backend Developer",
-        "company": "Kuiper Make",
-        "period": "Oct 2024 - Present",
-        "logo": "/kuiper-icon.jpeg",
+        "rol": "Fullstack Developer",
+        "company": "Lirmi",
+        "location": "Temuco, Chile (Remote)",
+        "period": "Aug 2023 - Present",
+        "logo": "/lirmi-icon.jpg",
         "responsibilities": [
-          "I develop and maintain microservices for ML risk-engine management using FastAPI and Laravel.",
-          "I lead maintenance and refactoring of legacy code across multiple app modules, improving system stability and efficiency."
+          "Designed and implemented robust data models and scalable REST APIs for enterprise-level educational management, handling consistent user traffic across a Laravel/PostgreSQL stack.",
+          "Co-architected and launched 10+ high-impact system modules, focused on distributed reliability for students, school leaders, and administrative staff.",
+          "Drove improvements in product quality and usability, contributing to a 24% increase in the company's Net Promoter Score (NPS), raising it from 25 to 43 points."
         ]
       },
       {
         "id": 3,
-        "rol": "Full Stack Developer",
+        "rol": "Fullstack Developer",
         "company": "Crediminuto",
+        "location": "Bogotá, Colombia (Remote)",
         "period": "Nov 2020 - Sep 2023",
         "logo": "/crediminuto-icon.png",
         "responsibilities": [
-          "I designed and implemented evaluation methods and integrated AWS services for fraud detection, strengthening transactional security."
+          "Engineered core fintech and payment evaluation systems, integrating secure AWS services for fraud detection and implementing secure service-to-service authentication.",
+          "Developed business logic and features for precise personalized offer calculations using Laravel (PHP), MySQL, and a frontend built with Vanilla JavaScript and jQuery.",
+          "Architected a high-performance, large-scale data pipeline via a dedicated Python (Pandas) microservice, optimizing mass report processing of 1M+ rows by 86.6% (from 300s to 40s)."
         ]
       }
     ]
@@ -87,15 +98,15 @@
     "items": [
       {
         "id": 1,
-        "title": "University Technician in Systems Programming",
-        "institution": "UCES",
-        "period": "2022 - 2025"
+        "title": "Associate's Degree in Systems Programming",
+        "institution": "Universidad de Ciencias Empresariales y Sociales (UCES) - Buenos Aires, Argentina",
+        "period": "Aug 2022 - Jul 2025"
       },
       {
         "id": 2,
-        "title": "Mechatronics Engineering",
-        "institution": "UNEXPO Luis Caballero Mejías - (not completed)",
-        "period": "2012 - 2016"
+        "title": "Mechatronics Engineering (incomplete)",
+        "institution": "UNEXPO Luis Caballero Mejías - Miranda, Venezuela",
+        "period": "Apr 2012 - Jun 2016"
       }
     ]
   }
